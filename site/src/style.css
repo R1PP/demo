@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap'); /* Inria Sans 300 */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap'); /* Inria Sans 400 */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap'); /* Inria Serif 400 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap'); /* Inter 200 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); /* Inter 300 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap'); /* Inter 500 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap'); /* Inter 600 */
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #141414;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 375px;
+    font-family: 'inter';
+    font-weight: 400;
+}
+
+.logo{
+    font-family: 'inter';
+    font-weight: 600;
+    color: #6FB1FC;
+}
+
+.left-side{
+    margin-right: 20px;
+}
+
+.right-side{
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.last-punkt{
+    margin-right: 300px;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background: #141414;
+    position: relative;
+    display: flex;
+}
+
+.main{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 415px;
+    width: 1110px;
+    height: 550px;
+    background-image: url(/media/poster.png);
+    border-radius: 3px;
+}
+
+.title{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.rate{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 61.2px;
+    margin-top: 260px;
+}
+
+.god-city{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 100px;
+    margin-top: 264px;
+}
+
+.ganre{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 170px;
+    margin-top: 264px;
+}
+
+.time{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 270px;
+    margin-top: 264px;
+}
+
+.age{
+    position: absolute;
+    border: 1px solid #fff;
+    display: inline;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 11px;
+    margin-left: 320px;
+    margin-top: 261px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+.description{
+    position: absolute;
+    color: #fff;
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 290px;
+}
+
+.buttons{
+    width: 500px;
+    height: 500px;
+}
+
+.btn-play{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(45deg, #0152D4, #6FB0FC);
+    font-family: "inter";
+    font-weight: 600;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    border: none;
+    top: 420px;
+    left: 60px;
+}
+
+.btn-treyler{
+    position: relative;
+    width: 100px;
+    height: 52px;
+    background: linear-gradient(45deg, #010C20, #171D27);
+    font-family: "inter";
+    font-weight: 600;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    border: none;
+    top: 421px;
+    left: 60px;
+}
+
+.btn-open{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(45deg, #FE532E, #F09719);
+    font-family: "inter";
+    font-weight: 600;
+    color: white;
+    padding: auto;
+    border-radius: 40px;
+    border: none;
+}
+
+.forma{
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+}
+
+.label_name{
+    font-family: "inter";
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+}
+
+.input_name{
+    background:#141414;
+    border: 1px solid grey;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+input{
+    margin-bottom: 20px;
+}
